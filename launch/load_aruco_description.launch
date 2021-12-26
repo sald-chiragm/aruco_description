@@ -3,6 +3,7 @@
   <arg name="aruco_dictionary" default="DICT_4X4_50" doc="Name of aruco dictionary"/>
   <arg name="aruco_id" default="0" doc="id of the aruco code"/>
   <arg name="aruco_description_name" default="my_aruco_description" doc="Name of the ros parameter storing the aruco description"/>
+  <arg name="aruco_name" default="target" doc="frame name of the aruco code"/>
   <!-- $(arg aruco_dictionary)_id$(arg aruco_id) -->
 
   <!--Environment description to param server-->
